@@ -1,10 +1,12 @@
-#📘 Seq2Seq LSTM Machine Translation – English → French Translator
+📘 Seq2Seq LSTM Machine Translation – English → French Translator
 
 A Deep Learning–based Encoder–Decoder implementation using LSTMs
+
 
 ⭐ Project Overview
 
 This project implements a Sequence-to-Sequence (Seq2Seq) neural network using LSTM layers to translate English sentences into French. The model is trained on an English–French sentence dataset and follows an encoder–decoder architecture commonly used in machine translation tasks.
+
 
 🚀 Key Features
 
@@ -30,6 +32,7 @@ Sample qualitative outputs
 
 Fully implemented in TensorFlow / Keras
 
+
 📂 Dataset
 
 Source: https://www.manythings.org/anki/fra-eng.zip
@@ -41,6 +44,7 @@ Only the last 10,000 pairs are used for faster training
 Dataset structure:
 
 English_sentence \t French_sentence
+
 
 🧹 Data Preprocessing Pipeline
 
@@ -57,6 +61,7 @@ Convert text → integer sequences
 Pad sequences to a fixed length
 
 Train-test split (80/20)
+
 
 🧠 Model Architecture
 Encoder
@@ -75,6 +80,7 @@ LSTM Layer receiving encoder state
 
 Dense Layer with Softmax activation
 
+
 ⚙️ Training Configuration
 
 Loss: sparse_categorical_crossentropy
@@ -86,6 +92,7 @@ Metrics: Accuracy
 Epochs: configurable
 
 Batch size: configurable
+
 
 📊 Evaluation
 Quantitative
@@ -101,6 +108,7 @@ Sample input English sentence
 Model translation output (French)
 
 Comparison with ground-truth translation
+
 
 🔬 Experiments
 
@@ -120,13 +128,15 @@ translation quality
 
 inference difficulty
 
+
 📁 Project Structure
 Seq2Seq-LSTM-Translation/
-│
-├── Seq2Seq LSTM.ipynb     # Full implementation notebook
-├── README.md              # Project documentation
-├── data/                  # (Optional) Dataset files
-└── results/               # BLEU scores, sample outputs
+
+Seq2Seq LSTM.ipynb     # Full implementation notebook
+README.md              # Project documentation
+data/                  # (Optional) Dataset files
+results/               # BLEU scores, sample outputs
+
 
 🛠️ Technologies Used
 
@@ -139,6 +149,7 @@ TensorFlow / Keras
 NLTK
 
 Matplotlib
+
 
 📝 How to Run
 
@@ -156,6 +167,7 @@ jupyter notebook "Seq2Seq LSTM.ipynb"
 
 Train the model and view results.
 
+
 📌 Future Improvements
 
 Beam Search decoding
@@ -165,6 +177,7 @@ Attention mechanism (Luong or Bahdanau)
 Transformer-based model
 
 Support for larger datasets
+
 
 👨‍💻 Author
 
