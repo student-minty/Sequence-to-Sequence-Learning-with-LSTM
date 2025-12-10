@@ -1,12 +1,10 @@
-📘 Seq2Seq LSTM Machine Translation – English → French Translator
+#📘 Seq2Seq LSTM Machine Translation – English → French Translator
 
 A Deep Learning–based Encoder–Decoder implementation using LSTMs
 
 ⭐ Project Overview
 
 This project implements a Sequence-to-Sequence (Seq2Seq) neural network using LSTM layers to translate English sentences into French. The model is trained on an English–French sentence dataset and follows an encoder–decoder architecture commonly used in machine translation tasks.
-
-This work was developed as part of CS564 – Machine Learning Assignment 4.
 
 🚀 Key Features
 
@@ -170,5 +168,5 @@ Support for larger datasets
 
 👨‍💻 Author
 
-Your Name
-CS564 – Machine Learning | IIT (or your institution)
+Janvi Kumari
+CS564 – Machine Learning | IIT Patna
